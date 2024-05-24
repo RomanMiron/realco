@@ -223,10 +223,24 @@ main section.works div.how p{
     color: #65665c;
 }
 
-main section.works div.cont{
-    border: 1px solid black;
-    
+main section.works .vtom{
+    display: grid;
     grid-template-columns: repeat(3,1fr);
+    column-gap: 22px;
+}
+
+main section.works .vtom div.cont{
+    display: grid;
+    border: 1px solid black;
+    align-items: center;
+    justify-items: center;
+    padding: 42px 47px;
+    row-gap: 20px;
+}
+
+main section.works .vtom div.cont p{
+    color: #65665c;
+    text-align: center;
 }
 
 main section.houses{
@@ -260,11 +274,126 @@ main section.houses div.left p{
 }
 
 main section.houses div.left div.batn{
-    color: ;
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    align-items: center;
+}
+
+main section.houses div.left div.batn a{
+    color: black;
+}
+
+main section.houses div.left div.batn a.agent{
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+main section.houses div.left div.batn a.explore{
+    display: grid;
+    border: 1px solid #EAEBE7;
+    height: 40px;
+    width: 150px;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
 }
 
 main section.houses div.right img{
     height: 600px;
     width: 600px;
     border-radius: 16px;
+}
+
+main section.process{
+    padding: 40px 3vw;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+main section.process .left img{
+    height: 600px;
+    width: 600px;
+    border-radius: 16px;
+}
+
+main section.process div.right{
+    display: grid;
+    padding: 30px;
+}
+
+main section.process div.right span{
+    display: grid;
+    border: 1px solid #E7E8E3;
+    border-radius: 32px;
+    height: 30px;
+    width: 120px;
+    background-color: #E7E8E3;
+    text-align: center;
+    align-items: center;
+}
+
+main section.process div.right h5{
+    font-size: 64px;
+}
+
+main section.process div.right p{
+    color: #65665c;
+}
+
+main section.process div.right .svg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main section.process div.right .svg h6{
+    font-size: 18px;
+    
+}
+
+main section.process div.right .svg p{
+    color: #65665c;
+    width: 260px;
+}
+
+main section.process div.right{
+    row-gap: 20px;
+}
+
+main section.process div.right .cont div{
+    padding: 8px 8px;
+    border: 1px solid #FAE8E1;
+    background-color: #FAE8E1;
+    border-radius: 8px;
+    width: 10%;
+    height: 25%;
+    
+    align-items: center;
+}
+
+
+main section.process div.right div.batn{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+}
+
+main section.process  div.right div.batn a{
+    color: black;
+}
+
+main section.process  div.right div.batn a.agent{
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
+
+main section.process  div.right div.batn a.explore{
+    display: grid;
+    border: 1px solid #EAEBE7;
+    height: 40px;
+    width: 150px;
+    border-radius: 6px;
+    text-align: center;
+    align-items: center;
 }
