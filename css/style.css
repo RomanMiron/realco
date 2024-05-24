@@ -185,3 +185,86 @@ main section.start .right img{
     height: 100%;
     object-fit: cover;
 }
+
+main section.works{
+    display: grid;
+    padding: 67px 3vw;
+}
+
+main section.works div.ipsum{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+main section.works div.ipsum nav{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main section.works div.ipsum nav a{
+    color: #737680;
+    font-size: 18px;
+}
+
+main section.works div.how{
+    display: grid;
+    padding: 128px;
+    justify-self: center;
+}
+
+main section.works div.how h2{
+    justify-self: center;
+    font-size: 40px;
+}
+
+main section.works div.how p{
+    font-size: 18px;
+    color: #65665c;
+}
+
+main section.works div.cont{
+    border: 1px solid black;
+    
+    grid-template-columns: repeat(3,1fr);
+}
+
+main section.houses{
+    padding: 10px 3vw;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+
+main section.houses div.left{
+    display: grid;
+}
+
+main section.houses div.left span{
+    display: grid;
+    border: 1px solid #E7E8E3;
+    border-radius: 32px;
+    height: 30px;
+    width: 120px;
+    background-color: #E7E8E3;
+    text-align: center;
+    align-items: center;
+}
+
+main section.houses div.left h4{
+    font-size: 64px;
+    width: 580px;
+}
+
+main section.houses div.left p{
+    color: #65665c;
+}
+
+main section.houses div.left div.batn{
+    color: ;
+}
+
+main section.houses div.right img{
+    height: 600px;
+    width: 600px;
+    border-radius: 16px;
+}
